@@ -34,6 +34,7 @@
     "@rbxts/rain": "^1.0.1",
     "@rbxts/services": "^1.1.4",
     "@rbxts/snapdragon": "*",
+    "nanoevents": "^6.0.0",
     "rbxts-transform-debug": "^0.4.0",
     "rbxts-transform-env": "^0.4.0",
     "rbxts-transformer-services": "^1.0.0",

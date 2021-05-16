@@ -4,6 +4,7 @@ import { UI } from "./Classes/Client/UI";
 import { Exception } from "./Internal/Exception";
 import { Find } from "./Utility/Find";
 import { Component } from "./Internal/Component";
+import { CarbonClient } from "./Classes/Utility/CarbonClient";
 
 const Camera = Workspace.CurrentCamera as Camera;
 const Assets = Find<Folder>(Replicated, "Assets");
@@ -103,6 +104,8 @@ export class Carbon {
         }
     }
 }
+
+export const Client = new CarbonClient;
 
 export { Assets, Player, Character, Camera };
 export { 

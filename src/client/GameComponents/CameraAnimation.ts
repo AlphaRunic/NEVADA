@@ -1,6 +1,6 @@
 import { Camera } from "shared/Carbon/Framework";
-import { WalkCycleSprings } from "../classes/WalkCycleSprings";
-import { BreatheAnimation } from "../classes/BreatheAnimation";
+import { WalkCycleSprings } from "../Classes/Animations/WalkCycleSprings";
+import { BreatheAnimation } from "../Classes/Animations/BreatheAnimation";
 import { Component } from "shared/Carbon/Internal/Component";
 
 export class CameraAnimation implements Component {

@@ -2,12 +2,11 @@ import { Players, ReplicatedStorage as Replicated, Workspace, RunService as Runt
 import { Disposable } from "./Classes/Utility/Disposable";
 import { UI } from "./Classes/Client/UI";
 import { Exception } from "./Internal/Exception";
-import { Find } from "./Utility/Find";
 import { Component } from "./Internal/Component";
 import { CarbonClient } from "./Classes/Utility/CarbonClient";
 
 const Camera = Workspace.CurrentCamera as Camera;
-const Assets = Find<Folder>(Replicated, "Assets");
+const Assets = Replicated.Assets;
 const Player: Player = Players.LocalPlayer;
 let Character: Model;
 
